@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-nunito: Nunito;
+    --font-advent-pro: "Advent Pro";
+    --font-font-awesome-6-free: "Font Awesome 6 Free";
+  
+    /* font sizes */
+    --font-size-sm: 14px;
+    --font-size-5xl: 24px;
+    --font-size-7xl: 26px;
+    --font-size-2xl: 21px;
+    --font-size-lgi: 19px;
+    --font-size-base: 16px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gainsboro-100: #e6e6e6;
+    --color-gainsboro-200: #d9d9d9;
+    --color-darkslategray-100: #333;
+    --color-limegreen-100: #17dd43;
+    --color-gray-100: rgba(0, 0, 0, 0.25);
+    --color-gray-200: rgba(0, 0, 0, 0.68);
+  
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-base-5: 15.5px;
+  
+    /* Paddings */
+    --padding-21xl: 40px;
+    --padding-13xl: 32px;
+    --padding-xl: 20px;
+    --padding-sm: 14px;
+    --padding-31xl: 50px;
+    --padding-6xl: 25px;
+    --padding-5xl: 24px;
+    --padding-4xs: 9px;
+    --padding-2xs: 11px;
+    --padding-26xl: 45px;
+    --padding-7xl: 26px;
+    --padding-3xl: 22px;
+    --padding-29xl: 48px;
+    --padding-base: 16px;
+    --padding-mid: 17px;
+    --padding-smi: 13px;
+    --padding-30xl: 49px;
+    --padding-xs: 12px;
+    --padding-15xl: 34px;
+
+  }

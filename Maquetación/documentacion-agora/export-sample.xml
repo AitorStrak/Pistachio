@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Export>
+	<CashTransactions>
+		<CashTransaction Id="1" PosId="1" WorkplaceId="1" UserId="2" BusinessDay="2018-12-03" Date="2018-12-03T16:04:49" Amount="-50.00" Supplier="Fontanero" Description="Reparación Grifo" />
+		<CashTransaction Id="2" PosId="1" WorkplaceId="1" UserId="2" BusinessDay="2018-12-03" Date="2018-12-03T16:04:59" Amount="100.00" Supplier="" Description="Añadido cambio" />
+	</CashTransactions>
+	<DeliveryNotes>
+		<DeliveryNote Serie="A" Number="1" Status="Pending" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:05:32" VatIncluded="true">
+			<Customer Id="2" FiscalName="Sol y Sombra, S.L." Cif="B0018912" Street="C/ García de Paredes, 10" City="Madrid" Region="Madrid" ZipCode="28010" CountryCode="es" ApplySurcharge="false" AccountCode="431000001" />
+			<DeliveryAddress Street="C\ Carabelos 23, 3ºC" City="Madrid" Region="Madrid" ZipCode="28021" />
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<SaleCenter Id="1" Name="Barra" Location="B1" />
+			<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+			<Lines>
+				<Line Index="0" CreationDate="2018-12-03T16:05:06" Type="Standard" ParentIndex="" ProductId="4" ProductName="Coca Cola" SaleFormatId="4" SaleFormatName="Coca Cola" SaleFormatRatio="1.00" MainBarcode="803400004" ProductPrice="2.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="1" PreparationTypeName="Barra" PLU="" FamilyId="4" FamilyName="Refrescos" PreparationOrderId="1" PreparationOrderName="Bebidas" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="2.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="2.50" />
+				<Line Index="1" CreationDate="2018-12-03T16:05:12" Type="Standard" ParentIndex="" ProductId="15" ProductName="Hamburguesa" SaleFormatId="15" SaleFormatName="Hamburguesa" SaleFormatRatio="1.00" MainBarcode="803400015" ProductPrice="2.75" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="5" FamilyName="Hamburguesas" PreparationOrderId="3" PreparationOrderName="Segundos" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="2.75" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="2.75">
+					<Addins>
+						<Addin ProductId="17" ProductName="Queso" SaleFormatId="17" SaleFormatName="Queso" SaleFormatRatio="1.00" MainBarcode="803400017" ProductPrice="0.00" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="" FamilyName="" />
+						<Addin ProductId="18" ProductName="Bacon" SaleFormatId="18" SaleFormatName="Bacon" SaleFormatRatio="1.00" MainBarcode="803400018" ProductPrice="0.00" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="" FamilyName="" />
+					</Addins>
+				</Line>
+			</Lines>
+			<Discounts DiscountRate="0.005" CashDiscount="0.00" />
+			<Payments />
+			<Offers />
+			<Totals GrossAmount="5.22" NetAmount="4.75" VatAmount="0.47" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="5.22" NetAmount="4.75" VatAmount="0.47" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</DeliveryNote>
+		<DeliveryNote Serie="A" Number="2" Status="Pending" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:05:55" VatIncluded="true">
+			<Customer Id="3" FiscalName="Lucas Grijander" Cif="2098110T" Street="C/ Amor de Madre, 3" City="Leganés" Region="Madrid" ZipCode="28047" CountryCode="es" ApplySurcharge="false" AccountCode="431000002" />
+			<DeliveryAddress Street="C\ Carabelos 23, 3ºC" City="Madrid" Region="Madrid" ZipCode="28021" />
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<SaleCenter Id="1" Name="Barra" Location="B1" />
+			<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+			<Lines>
+				<Line Index="0" CreationDate="2018-12-03T16:05:47" Type="Standard" ParentIndex="" ProductId="13" ProductName="Mahou" SaleFormatId="94" SaleFormatName="Doble de Mahou" SaleFormatRatio="0.35" MainBarcode="803400013" ProductPrice="2.25" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="1" PreparationTypeName="Barra" PLU="" FamilyId="1" FamilyName="Cervezas" PreparationOrderId="1" PreparationOrderName="Bebidas" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="2.25" DiscountRate="0.50" CashDiscount="0.00" OfferId="2" OfferCode="50%" TotalAmount="1.13" />
+			</Lines>
+			<Discounts DiscountRate="0.00" CashDiscount="0.00" />
+			<Payments />
+			<Offers />
+			<Totals GrossAmount="1.13" NetAmount="1.03" VatAmount="0.10" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="1.13" NetAmount="1.03" VatAmount="0.10" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</DeliveryNote>
+	</DeliveryNotes>
+	<SalesOrders>
+		<SalesOrder Serie="P" Number="1" DeliveryDate="" Status="Pending" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:08:07" VatIncluded="true">
+			<Customer Id="2" FiscalName="Sol y Sombra, S.L." Cif="B0018912" Street="C/ García de Paredes, 10" City="Madrid" Region="Madrid" ZipCode="28010" CountryCode="es" ApplySurcharge="false" AccountCode="431000001" />
+			<DeliveryAddress Street="C\ Carabelos 23, 3ºC" City="Madrid" Region="Madrid" ZipCode="28021" />
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<SaleCenter Id="1" Name="Barra" Location="B1" />
+			<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+			<Lines>
+				<Line Index="0" CreationDate="2018-12-03T16:07:55" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="" TotalCostPrice="" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" />
+				<Line Index="1" CreationDate="2018-12-03T16:07:56" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="" TotalCostPrice="" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.35" />
+				<Line Index="2" CreationDate="2018-12-03T16:07:56" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="2.00" UnitCostPrice="" TotalCostPrice="" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="3.00">
+					<Notes><![CDATA[Sin mantequilla]]></Notes>
+				</Line>
+				<Line Index="3" CreationDate="2018-12-03T16:07:57" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="" TotalCostPrice="" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.35" />
+			</Lines>
+			<Discounts DiscountRate="0.005" CashDiscount="0.00" />
+			<Payments />
+			<Offers />
+			<RelatedSalesOrder Serie="P" Number="1" />
+			<Totals GrossAmount="7.16" NetAmount="6.51" VatAmount="0.65" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="7.16" NetAmount="6.51" VatAmount="0.65" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</SalesOrder>
+	</SalesOrders>
+	<Invoices>
+		<Invoice Serie="T" Number="1" BusinessDay="2018-12-03" VatIncluded="true" PrintCount="1" Date="2018-12-03T16:06:28" DocumentType="BasicInvoice">
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<InvoiceItems>
+				<Item ContentType="T" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:06:28" VatIncluded="true">
+					<Pos Id="1" Name="TPV" />
+					<User Id="2" Name="Mauricio" />
+					<SaleCenter Id="1" Name="Barra" Location="B1" />
+					<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+					<Lines>
+						<Line Index="0" CreationDate="2018-12-03T16:06:10" Type="Standard" ParentIndex="" ProductId="19" ProductName="Café Sólo" SaleFormatId="19" SaleFormatName="Café Sólo" SaleFormatRatio="1.00" MainBarcode="803400019" ProductPrice="1.20" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="3" FamilyName="Cafés" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.20" DiscountRate="1.00" CashDiscount="0.00" OfferId="1" OfferCode="2x1" TotalAmount="0.00" />
+						<Line Index="1" CreationDate="2018-12-03T16:06:11" Type="Standard" ParentIndex="" ProductId="20" ProductName="Café con Leche" SaleFormatId="20" SaleFormatName="Café con Leche" SaleFormatRatio="1.00" MainBarcode="803400020" ProductPrice="1.30" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="3" FamilyName="Cafés" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.30" DiscountRate="0.00" CashDiscount="0.00" OfferId="1" OfferCode="2x1" TotalAmount="1.30" />
+						<Line Index="2" CreationDate="2018-12-03T16:06:19" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" />
+						<Line Index="3" CreationDate="2018-12-03T16:06:20" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.35" />
+					</Lines>
+					<Discounts DiscountRate="0.00" CashDiscount="0.00" />
+					<Payments />
+					<Offers />
+					<Totals GrossAmount="4.15" NetAmount="3.77" VatAmount="0.38" SurchargeAmount="0.00">
+						<Taxes>
+							<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="4.15" NetAmount="3.77" VatAmount="0.38" SurchargeAmount="0.00" />
+						</Taxes>
+					</Totals>
+				</Item>
+			</InvoiceItems>
+			<Payments>
+				<Payment MethodId="1" MethodName="Efectivo" Amount="4.15" PaidAmount="4.15" ChangeAmount="0.00" TipAmount="0.00" Date="2018-12-03T16:06:28" PosId="1" IsPrepayment="false">
+					<ExtraInformation><![CDATA[]]></ExtraInformation>
+				</Payment>
+			</Payments>
+			<Totals GrossAmount="4.15" NetAmount="3.77" VatAmount="0.38" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="4.15" NetAmount="3.77" VatAmount="0.38" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</Invoice>
+		<Invoice Serie="T" Number="2" BusinessDay="2018-12-03" VatIncluded="true" PrintCount="1" Date="2018-12-03T16:07:13" DocumentType="BasicInvoice">
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<InvoiceItems>
+				<Item ContentType="T" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:07:13" VatIncluded="true">
+					<Pos Id="1" Name="TPV" />
+					<User Id="2" Name="Mauricio" />
+					<SaleCenter Id="1" Name="Barra" Location="B1" />
+					<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+					<Lines>
+						<Line Index="0" CreationDate="2018-12-03T16:06:40" Type="Standard" ParentIndex="" ProductId="19" ProductName="Café Sólo" SaleFormatId="19" SaleFormatName="Café Sólo" SaleFormatRatio="1.00" MainBarcode="803400019" ProductPrice="1.20" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="3" FamilyName="Cafés" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.20" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.20" />
+						<Line Index="1" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" >
+							<Notes><![CDATA[Para compartir]]></Notes>
+						</Line>
+						<Line Index="2" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.35" />
+						<Line Index="3" CreationDate="2018-12-03T16:06:43" Type="Standard" ParentIndex="" ProductId="26" ProductName="Croissant" SaleFormatId="26" SaleFormatName="Croissant" SaleFormatRatio="1.00" MainBarcode="803400026" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" />
+					</Lines>
+					<Discounts DiscountRate="0.50" CashDiscount="0.00" />
+					<Payments />
+					<Offers />
+					<Totals GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00">
+						<Taxes>
+							<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00" />
+						</Taxes>
+					</Totals>
+				</Item>
+			</InvoiceItems>
+			<Payments>
+				<Payment MethodId="2" MethodName="Tarjeta" Amount="2.78" PaidAmount="2.78" ChangeAmount="0.00" TipAmount="0.00" Date="2018-12-03T16:07:13" PosId="1" IsPrepayment="false">
+					<ExtraInformation><![CDATA[]]></ExtraInformation>
+				</Payment>
+			</Payments>
+			<Totals GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</Invoice>
+		<Invoice Serie="TD" Number="1" BusinessDay="2018-12-03" VatIncluded="true" PrintCount="1" Date="2018-12-03T16:07:48" DocumentType="BasicRefund">
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<RelatedInvoice Serie="T" Number="2" />
+			<InvoiceItems>
+				<Item ContentType="T" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:07:48" VatIncluded="true">
+					<Pos Id="1" Name="TPV" />
+					<User Id="2" Name="Mauricio" />
+					<SaleCenter Id="1" Name="Barra" Location="B1" />
+					<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+					<Lines>
+						<Line Index="0" CreationDate="2018-12-03T16:06:40" Type="Standard" ParentIndex="" ProductId="19" ProductName="Café Sólo" SaleFormatId="19" SaleFormatName="Café Sólo" SaleFormatRatio="1.00" MainBarcode="803400019" ProductPrice="1.20" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="3" FamilyName="Cafés" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="-1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.20" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="-1.20" />
+						<Line Index="1" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="-1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="-1.50" />
+						<Line Index="2" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="-1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="-1.35" />
+						<Line Index="3" CreationDate="2018-12-03T16:06:43" Type="Standard" ParentIndex="" ProductId="26" ProductName="Croissant" SaleFormatId="26" SaleFormatName="Croissant" SaleFormatRatio="1.00" MainBarcode="803400026" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="-1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="-1.50" />
+					</Lines>
+					<Discounts DiscountRate="0.50" CashDiscount="0.00" />
+					<Payments />
+					<Offers />
+					<Totals GrossAmount="-2.78" NetAmount="-2.53" VatAmount="-0.25" SurchargeAmount="0.00">
+						<Taxes>
+							<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="-2.78" NetAmount="-2.53" VatAmount="-0.25" SurchargeAmount="0.00" />
+						</Taxes>
+					</Totals>
+				</Item>
+			</InvoiceItems>
+			<Payments>
+				<Payment MethodId="2" MethodName="Tarjeta" Amount="-2.78" PaidAmount="-2.78" ChangeAmount="0.00" TipAmount="0.00" Date="2018-12-03T16:07:48" PosId="1" IsPrepayment="false">
+					<ExtraInformation><![CDATA[]]></ExtraInformation>
+				</Payment>
+			</Payments>
+			<Totals GrossAmount="-2.78" NetAmount="-2.53" VatAmount="-0.25" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="-2.78" NetAmount="-2.53" VatAmount="-0.25" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</Invoice>
+		<Invoice Serie="F" Number="1" BusinessDay="2018-12-03" VatIncluded="true" PrintCount="1" Date="2018-12-03T16:07:48" DocumentType="StandardInvoice">
+			<Customer Id="3" FiscalName="Lucas Grijander" Cif="2098110T" Street="C/ Amor de Madre, 3" City="Leganés" Region="Madrid" ZipCode="28047" CountryCode="es" ApplySurcharge="false" AccountCode="431000002" />
+			<Pos Id="1" Name="TPV" />
+			<Workplace Id="1" Name="Ágora Demo" />
+			<User Id="2" Name="Mauricio" />
+			<InvoiceItems>
+				<Item ContentType="T" BusinessDay="2018-12-03" Guests="" Date="2018-12-03T16:07:48" VatIncluded="true">
+					<Pos Id="1" Name="TPV" />
+					<User Id="2" Name="Mauricio" />
+					<SaleCenter Id="1" Name="Barra" Location="B1" />
+					<SuggestedTip Percentage="0.00" VatId="0" VatRate="0.00" SurchargeRate="0.00" ApplyToVatIncluded="true" IgnoreTicketDiscounts="false" />
+					<Lines>
+						<Line Index="0" CreationDate="2018-12-03T16:06:40" Type="Standard" ParentIndex="" ProductId="19" ProductName="Café Sólo" SaleFormatId="19" SaleFormatName="Café Sólo" SaleFormatRatio="1.00" MainBarcode="803400019" ProductPrice="1.20" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="3" FamilyName="Cafés" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.20" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.20" />
+						<Line Index="1" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="24" ProductName="Donut" SaleFormatId="24" SaleFormatName="Donut" SaleFormatRatio="1.00" MainBarcode="803400024" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" />
+						<Line Index="2" CreationDate="2018-12-03T16:06:42" Type="Standard" ParentIndex="" ProductId="25" ProductName="Tostada" SaleFormatId="25" SaleFormatName="Tostada" SaleFormatRatio="1.00" MainBarcode="803400025" ProductPrice="1.35" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.35" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.35" />
+						<Line Index="3" CreationDate="2018-12-03T16:06:43" Type="Standard" ParentIndex="" ProductId="26" ProductName="Croissant" SaleFormatId="26" SaleFormatName="Croissant" SaleFormatRatio="1.00" MainBarcode="803400026" ProductPrice="1.50" VatId="3" VatRate="0.10" SurchargeRate="0.014" ProductCostPrice="0.00" MenuGroup="" PreparationTypeId="2" PreparationTypeName="Cocina" PLU="" FamilyId="6" FamilyName="Bollería" PreparationOrderId="4" PreparationOrderName="Postres" Quantity="1.00" UnitCostPrice="0.00" TotalCostPrice="0.00" UserId="2" UnitPrice="1.50" DiscountRate="0.00" CashDiscount="0.00" OfferId="" OfferCode="" TotalAmount="1.50" />
+					</Lines>
+					<Discounts DiscountRate="0.50" CashDiscount="0.00" />
+					<Payments />
+					<Offers />
+					<Totals GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00">
+						<Taxes>
+							<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00" />
+						</Taxes>
+					</Totals>
+				</Item>
+			</InvoiceItems>
+			<Payments>
+				<Payment MethodId="2" MethodName="Tarjeta" Amount="2.78" PaidAmount="2.78" ChangeAmount="0.00" TipAmount="0.00" Date="2018-12-03T16:07:48" PosId="1" IsPrepayment="false">
+					<ExtraInformation><![CDATA[]]></ExtraInformation>
+				</Payment>
+			</Payments>
+			<Totals GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00">
+				<Taxes>
+					<Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="2.78" NetAmount="2.53" VatAmount="0.25" SurchargeAmount="0.00" />
+				</Taxes>
+			</Totals>
+		</Invoice>
+	</Invoices>
+	<PosCloseOuts>
+		<PosCloseOut Id="1" PosId="1" WorkplaceId="1" BusinessDay="2018-12-03" InitialAmount="100.00" ExpectedEndAmount="154.15" ActualEndAmount="154.20" Incident="Desconocido" OpenDate="2018-12-03T16:04:30" OpenerUserId="2" CloseDate="2018-12-03T16:08:20" CloserUserId="2" VerificationCode="vvrQyNte6Lit">
+			<Balances>
+				<Balance PaymentMethodId="1" InitialAmount="100.00" ExpectedEndAmount="154.15" ActualEndAmount="154.20" />
+				<Balance PaymentMethodId="2" InitialAmount="0.00" ExpectedEndAmount="25.00" ActualEndAmount="25.00" />
+			</Balances>
+		</PosCloseOut>
+	</PosCloseOuts>
+	<SystemCloseOuts>
+		<SystemCloseOut Number="1" BusinessDay="2018-12-03" OpenDate="2018-12-03T16:04:30" CloseDate="2018-12-03T16:08:20" OpenerUserId="2" CloserUserId="2" WorkplaceId="1">
+			<Documents>
+				<Document Serie="TD" Amount="-2.78" FirstNumber="1" LastNumber="1" Count="1" />
+				<Document Serie="T" Amount="6.93" FirstNumber="1" LastNumber="2" Count="2" />
+				<Document Serie="F" Amount="2.78" FirstNumber="1" LastNumber="1" Count="1" />
+			</Documents>
+			<Amounts NetAmount="6.30" GrossAmount="6.93" SurchargeAmount="0.00" VatAmount="0.63" />
+			<InvoicePayments>
+				<Payment MethodName="Cheque restaurante" Amount="0.00" />
+				<Payment MethodName="Efectivo" Amount="4.15" />
+				<Payment MethodName="Tarjeta" Amount="2.78" />
+			</InvoicePayments>
+			<SalesOrderPayments>
+				<Payment MethodName="Cheque restaurante" Amount="0.00" />
+				<Payment MethodName="Efectivo" Amount="0.00" />
+				<Payment MethodName="Tarjeta" Amount="0.00" />
+			</SalesOrderPayments>
+			<DeliveryNotePayments>
+				<Payment MethodName="Cheque restaurante" Amount="0.00" />
+				<Payment MethodName="Efectivo" Amount="0.00" />
+				<Payment MethodName="Tarjeta" Amount="0.00" />
+			</DeliveryNotePayments>
+			<TicketPayment>
+				<Payment MethodName="Cheque restaurante" Amount="0.00" />
+				<Payment MethodName="Efectivo" Amount="0.00" />
+				<Payment MethodName="Tarjeta" Amount="0.00" />
+			</TicketPayment>
+		</SystemCloseOut>
+	</SystemCloseOuts>
+	<PurchaseOrders>
+    <PurchaseOrder Serie="PC" Number="1" SupplierDocumentNumber="P-12234" Date="2018-12-20" Status="Delivered">
+      <Warehouse Id="1" Name="Almacén General" Street="Alonso Cano, 87" City="Madrid" Region="Madrid" ZipCode="28003" Cif="A33121" FiscalName="Agora" />
+      <Supplier Id="1" FiscalName="Casbega S.A." Cif="A23429423" Street="Avd. Real de Pinto" City="Madrid" Region="Madrid" ZipCode="28021" ApplySurcharge="false" />
+      <Lines>
+        <Line Index="0" ProductId="4" ProductName="Coca Cola" FamilyId="1" FamilyName="Refrescos" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" OrderedQuantity="10.00" DeliveredQuantity="10.00" Price="5.00" DiscountRate="0.01" CashDiscount="0.25" TotalAmount="49.25">
+		  <Notes><![CDATA[Dejar en la puerta de entrada]]></Notes>
+		</Line>
+        <Line Index="1" ProductId="14" ProductName="Garrapata Roja" FamilyId="2" FamilyName="Cervezas" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" OrderedQuantity="2.00" DeliveredQuantity="2.00" Price="6.35" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="12.70" />
+      </Lines>
+      <Discounts DiscountRate="0.00" CashDiscount="0.00" />
+      <Totals GrossAmount="68.15" NetAmount="61.95" VatAmount="6.20" SurchargeAmount="0.00">
+        <Taxes>
+          <Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="68.15" NetAmount="61.95" VatAmount="6.20" SurchargeAmount="0.00" />
+        </Taxes>
+      </Totals>
+    </PurchaseOrder>
+    <PurchaseOrder Serie="PC" Number="3" SupplierDocumentNumber="P-12235" Date="2018-12-20" Status="Delivered">
+      <Warehouse Id="1" Name="Almacén General" Street="Alonso Cano, 87" City="Madrid" Region="Madrid" ZipCode="28003" Cif="A33121" FiscalName="Agora" />
+      <Supplier Id="1" FiscalName="Casbega S.A." Cif="A23429423" Street="Avd. Real de Pinto" City="Madrid" Region="Madrid" ZipCode="28021" ApplySurcharge="false" />
+      <Lines>
+        <Line Index="0" ProductId="13" ProductName="Mahou" FamilyId="2" FamilyName="Cervezas" PurchaseUnitId="1" PurchaseUnitName="Unidad" VatId="3" VatRate="0.10" SurchargeRate="0.014" OrderedQuantity="100.00" DeliveredQuantity="100.00" Price="0.45" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="45.00" />
+      </Lines>
+      <Discounts DiscountRate="0.00" CashDiscount="0.00" />
+      <Totals GrossAmount="49.50" NetAmount="45.00" VatAmount="4.50" SurchargeAmount="0.00">
+        <Taxes>
+          <Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="49.50" NetAmount="45.00" VatAmount="4.50" SurchargeAmount="0.00" />
+        </Taxes>
+      </Totals>
+    </PurchaseOrder>
+  </PurchaseOrders>
+  <IncomingDeliveryNotes>
+    <IncomingDeliveryNote Serie="AC" Number="1" SupplierDocumentNumber="Alb 331122" Date="2018-12-20" Invoiced="true">
+      <Warehouse Id="1" Name="Almacén General" Street="Alonso Cano, 87" City="Madrid" Region="Madrid" ZipCode="28003" Cif="A33121" FiscalName="Agora" />
+      <Supplier Id="1" FiscalName="Casbega S.A." Cif="A23429423" Street="Avd. Real de Pinto" City="Madrid" Region="Madrid" ZipCode="28021" ApplySurcharge="false" />
+      <Lines>
+        <Line Index="0" ProductId="4" ProductName="Coca Cola" FamilyId="1" FamilyName="Refrescos" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="10.00" Price="5.00" DiscountRate="0.01" CashDiscount="0.25" TotalAmount="49.25">
+          <DeliveredOrder Serie="PC" Number="1" LineIndex="0" />
+  		  <Notes><![CDATA[Dejar en la puerta de entrada]]></Notes>
+        </Line>
+        <Line Index="1" ProductId="14" ProductName="Garrapata Roja" FamilyId="2" FamilyName="Cervezas" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="2.00" Price="6.35" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="12.70">
+          <DeliveredOrder Serie="PC" Number="1" LineIndex="1" />
+        </Line>
+        <Line Index="2" ProductId="13" ProductName="Mahou" FamilyId="2" FamilyName="Cervezas" PurchaseUnitId="1" PurchaseUnitName="Unidad" VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="100.00" Price="0.45" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="45.00">
+          <DeliveredOrder Serie="PC" Number="3" LineIndex="0" />
+        </Line>
+      </Lines>
+      <Discounts DiscountRate="0.00" CashDiscount="0.00" />
+      <Totals GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00">
+        <Taxes>
+          <Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00" />
+        </Taxes>
+      </Totals>
+    </IncomingDeliveryNote>
+  </IncomingDeliveryNotes>
+  <PurchaseInvoices>
+    <PurchaseInvoice Serie="FC" Number="1" SupplierDocumentNumber="F-3442" Date="2018-12-20" Accounted="false">
+      <Supplier Id="1" FiscalName="Casbega S.A." Cif="A23429423" Street="Avd. Real de Pinto" City="Madrid" Region="Madrid" ZipCode="28021" ApplySurcharge="false" />
+      <IncomingDeliveryNotes>
+        <IncomingDeliveryNote Serie="AC" Number="1" SupplierDocumentNumber="Alb 331122" Date="2018-12-20" Invoiced="true">
+          <Warehouse Id="1" Name="Almacén General" Street="Alonso Cano, 87" City="Madrid" Region="Madrid" ZipCode="28003" Cif="A33121" FiscalName="Agora" />
+          <Supplier Id="1" FiscalName="Casbega S.A." Cif="A23429423" Street="Avd. Real de Pinto" City="Madrid" Region="Madrid" ZipCode="28021" ApplySurcharge="false" />
+          <Lines>
+            <Line Index="0" ProductId="4" ProductName="Coca Cola" FamilyId="1" FamilyName="Refrescos" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="10.00" Price="5.00" DiscountRate="0.01" CashDiscount="0.25" TotalAmount="49.25">
+              <DeliveredOrder Serie="PC" Number="1" LineIndex="0" />
+			  <Notes><![CDATA[Dejar en la puerta de entrada]]></Notes>
+            </Line>
+            <Line Index="1" ProductId="14" ProductName="Garrapata Roja" FamilyId="2" FamilyName="Cervezas" PurchaseUnitId="4" PurchaseUnitName="Caja de 24 uds." VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="2.00" Price="6.35" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="12.70">
+              <DeliveredOrder Serie="PC" Number="1" LineIndex="1" />
+            </Line>
+            <Line Index="2" ProductId="13" ProductName="Mahou" FamilyId="2" FamilyName="Cerveas" PurchaseUnitId="1" PurchaseUnitName="Unidad" VatId="3" VatRate="0.10" SurchargeRate="0.014" Quantity="100.00" Price="0.45" DiscountRate="0.00" CashDiscount="0.00" TotalAmount="45.00">
+              <DeliveredOrder Serie="PC" Number="3" LineIndex="0" />
+            </Line>
+          </Lines>
+          <Discounts DiscountRate="0.00" CashDiscount="0.00" />
+          <Totals GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00">
+            <Taxes>
+              <Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00" />
+            </Taxes>
+          </Totals>
+        </IncomingDeliveryNote>
+      </IncomingDeliveryNotes>
+      <Payments>
+        <Payment Date="2018-12-20" MethodId="1" MethodName="Efectivo" Amount="117.65" />
+      </Payments>
+      <Totals GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00">
+        <Taxes>
+          <Tax VatRate="0.10" SurchargeRate="0.014" GrossAmount="117.65" NetAmount="106.95" VatAmount="10.70" SurchargeAmount="0.00" />
+        </Taxes>
+      </Totals>
+    </PurchaseInvoice>
+  </PurchaseInvoices>
+</Export>
