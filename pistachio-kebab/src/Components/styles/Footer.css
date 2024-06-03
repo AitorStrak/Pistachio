@@ -1,0 +1,54 @@
+.footer { 
+    /* display: flex;
+    padding-top: 180px;
+    width: 466px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 17px; */
+    /* padding-top: 160px; */
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.form-submit-button-2 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    color: black; 
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 20px 40px;
+    width: 200px;
+    cursor: pointer; 
+}
+
+.form-acces-button { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 20px 40px;
+    width: 200px;
+    cursor: pointer; 
+}
+
+.accessibility-icon { 
+    aspect-ratio: 1; 
+    object-fit: auto; 
+    object-position: center; 
+    width: 15px; 
+    align-self: start;
+    margin-right: 10px;
+}
+
+.form-submit-button:active, 
+.form-submit-button-2:active, 
+.form-acces-button:active {
+    background-color:#d1d1d1;
+}

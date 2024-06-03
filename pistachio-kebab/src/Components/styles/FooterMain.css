@@ -1,0 +1,62 @@
+.pita-image {
+  width: 383px;
+  height: 383px;
+}
+
+.durum-image {
+  width: 500px;
+}
+
+.accessibility-img,
+.language-img {
+  width: 40px;
+  margin: 5px;
+}
+
+.images-container {
+  background-color: #063661;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.footer-buttons {
+  background-color: #063661;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  margin-bottom: -80px;
+  padding-bottom: 80px;
+}
+
+.language-button,
+.accessibility-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 0 10px;
+  width: 200px;
+}
+
+.language-button:active,
+.accessibility-button:active {
+  background-color: #d1d1d1;
+}
+
+.language-button span,
+.accessibility-button span {
+  font-family: Nunito, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

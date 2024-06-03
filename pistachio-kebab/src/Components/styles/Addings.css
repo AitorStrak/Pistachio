@@ -1,0 +1,297 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.main-img {
+  aspect-ratio: 3.03;
+  object-fit: auto;
+  width: 418px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.content-section {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.68);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 30px 50px;
+  align-items: center;
+  box-shadow: 0 -10px 6px -4px rgba(0, 0, 0, 0.1),
+    0 10px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.dish-header {
+  display: flex;
+  color: #000;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.dish-img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.68);
+  border-radius: 50%;
+}
+
+.dish-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.dish-name {
+  font: 700 24px Nunito, sans-serif;
+}
+
+.dish-price {
+  margin-top: 20px;
+  font: 300 16px Nunito, sans-serif;
+}
+
+.reset-button {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.68);
+  background-color: #fff;
+  margin-top: 27px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.68);
+  justify-content: center;
+  padding: 17px 250px;
+  font: 700 20px Nunito, sans-serif;
+  cursor: pointer;
+}
+
+.section-wrapper {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  box-shadow: 0 -10px 6px -4px rgba(0, 0, 0, 0.1),
+    0 10px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.ingredient-section {
+  border-top: 1px solid rgba(217, 217, 217, 1);
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
+  background-color: #fff;
+  padding: 26px 47px;
+}
+
+.ingredient {
+  display: flex;
+  gap: 30px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredient-img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  width: 115px;
+  border: 1px solid rgba(0, 0, 0, 0.68);
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.info-container {
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ingredient-name {
+  color: #000;
+  font: 700 24px Nunito, sans-serif;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-right: 20px;
+  color: #000;
+}
+
+.quantity-adding {
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.control-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.68);
+  padding: 10px 20px;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.button-toolbar {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+.save-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 200px;
+  gap: 50px;
+}
+
+.save-checkout {
+  background-color: #17dd43;
+  border-radius: 10px;
+  border: 1px solid #000;
+  color: #000;
+  padding: 30px 60px;
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 30px 60px;
+  font-family: Nunito, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Scrollbar */
+.ingredient-list::-webkit-scrollbar {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.ingredient-list::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.ingredient-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.ingredient-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ingredient-list {
+  max-height: 700px;
+  overflow-y: scroll;
+  padding: 20px 60px;
+}
+
+.ingredient {
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px;
+}
+
+.ingredient-container {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 -4px 3px -4px rgba(0, 0, 0, 0.3),
+  0 10px 3px -4px rgba(0, 0, 0, 0.3);
+}
+
+.ingredient-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.info-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.ingredient-name {
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Additional styling for selected addings */
+.selected-addings {
+  max-height: 100px; /* Limit the height */
+  overflow-y: auto; /* Add scroll if the content exceeds the max height */
+  margin-top: 10px; /* Space between the dish-info and the selected addings */
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+}
+
+.selected-addings ul {
+  padding-left: 20px; /* Indent the list items */
+  margin: 0; /* Remove default margin */
+}
+
+.selected-addings li {
+  list-style-type: disc; /* Use a disc for the list item marker */
+  margin-bottom: 5px; /* Space between list items */
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+}
+
+/* Personalizar la barra de desplazamiento */
+.selected-addings::-webkit-scrollbar {
+  width: 15px; /* Ancho de la barra de desplazamiento */
+}
+
+.selected-addings::-webkit-scrollbar-track {
+  background: #ffffff; /* Color del fondo de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+.selected-addings::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+.selected-addings::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el ratón */
+}

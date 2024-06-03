@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Nunito, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.info-icon {
+  width: 35px;
+}
+
+.info-title {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.info-content {
+  background-color: #063661;
+  padding: 50px 20px 28px;
+  margin: 0;
+}
+
+.centered-container {
+  background-color: #063661;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.start-order-button {
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  width: 440px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-order-button:active {
+  background-color: rgb(200, 200, 202);
+}
+
+.start-order-title {
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  color: #000;
+  font: 36px Nunito, sans-serif;
+}
+
+.start-order-subtitle {
+  color: rgba(0, 0, 0, 0.68);
+  align-self: center;
+  margin-top: 11px;
+  font: 20px Nunito, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.mainLayout-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+    
+.header-image-2 {
+    width: 100%;
+}
+
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Nunito, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.info-icon {
+  width: 35px;
+}
+
+.info-title {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.info-content {
+  background-color: #063661;
+  padding: 50px 20px 28px;
+  margin: 0;
+}
+
+.centered-container {
+  background-color: #063661;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.start-order-button {
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  width: 440px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-order-button:active {
+  background-color: rgb(200, 200, 202);
+}
+
+.start-order-title {
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  color: #000;
+  font: 36px Nunito, sans-serif;
+}
+
+.start-order-subtitle {
+  color: rgba(0, 0, 0, 0.68);
+  align-self: center;
+  margin-top: 11px;
+  font: 20px Nunito, sans-serif;
+}
