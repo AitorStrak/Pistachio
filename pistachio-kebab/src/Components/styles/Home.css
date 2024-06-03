@@ -148,3 +148,13 @@
 .form-acces-button:active {
   background-color: #d1d1d1;
 }
+
+/* .app-container.accessible .order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+} */

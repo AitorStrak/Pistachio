@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { useNavigate } from "react-router-dom";
@@ -58,6 +58,7 @@ function ProductItem({ product, onRemove, onQuantityChange }) {
 export function Order() {
   const { order, removeProduct, updateQuantity } = useContext(OrderContext);
   const navigate = useNavigate();
+  const [isAccessibleMode, setIsAccessibleMode] = useState(false);
 
   const handleRemove = (id, price, name) => {
     const confirmationOptions = {
@@ -143,8 +144,12 @@ export function Order() {
     }, 0)
     .toFixed(2);
 
+  const toggleAccessibleMode = () => {
+    setIsAccessibleMode(!isAccessibleMode);
+  };
+
   return (
-    <>
+    <div className={`app-container ${isAccessibleMode ? 'accessible' : ''}`}>
       <Header />
       <section className="order-container">
         <h1 className="order-title">Tu Pedido</h1>
@@ -181,7 +186,7 @@ export function Order() {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+      <Footer toggleAccessibleMode={toggleAccessibleMode} />
+    </div>
   );
 }
